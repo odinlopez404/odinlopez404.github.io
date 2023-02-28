@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 12em;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #656565,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #d90368,
+    1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.2),
+    1px 25px 30px rgba(16, 16, 16, 0.2), 1px 30px 40px rgba(16, 16, 16, 0.4);
+}
+
+.navbar-collapse {
+  justify-content: end;
+}
+
+.card-date,
+.card-category,
+.card-place,
+.card-capacity,
+.card-assistance,
+.card-price {
+  background-color: #d90368;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.card-img {
+  height: 150px;
+  object-fit: cover;
+  filter: grayscale(0.7);
+  transition: 1s;
+}
+
+.card-price > span {
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #d90368;
+}
+
+.form-check-input {
+  border-color: #d90368 !important;
+}
+
+.form-check-input:checked {
+  background-color: #d90368 !important;
+  border-color: #d90368 !important;
+}
+
+.input-group > .form-control,
+.input-group > .form-floating,
+.input-group > .form-select {
+  border-color: #d90368 !important;
+}
+
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
+  border-color: #d90368 !important;
+}
+
+.bi-search {
+  color: #ffffffc2;
+  transition: 1.5s;
+}
+
+.btn-outline {
+  background-color: #d90368 !important;
+}
+
+.tarjeta {
+  transition: 1.5s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.02);
+  transition: 1.5s;
+}
+
+.tarjeta:hover > .card-img {
+  filter: grayscale(0.2);
+  transform: scale(1.03);
+  transition: 1s;
+}
+
+.container-fluid {
+  overflow: hidden !important;
+}
+
+.card-body {
+  transition: 1.2s;
+}
+
+.btn-outline:hover {
+  background-color: #b80257 !important;
+}
+
+.btn-outline:hover > .bi-search {
+  transform: scale3d(1.3, 1.3, 1.3);
+  border: solid 1px #d90368 !important;
+}
+
+#inlineCheckbox1:hover,
+#inlineCheckbox2:hover,
+#inlineCheckbox3:hover,
+#inlineCheckbox4:hover,
+#inlineCheckbox5:hover {
+  transition: 1s;
+  border: solid 1px #d90368 !important;
+}
+
+.form-style {
+  display: block;
+  align-content: space-between;
+  transition: 1s;
+}
+
+.form-control {
+  border: solid 1px #d90368 !important;
+  transition: 1s;
+  z-index: 999;
+}
+.form-control:hover {
+  background-color: #dbdbdb !important;
+  transition: 1s;
+}
+
+.form-label {
+  font-size: 1.2em;
+  padding-top: 1em;
+}
+
+.card-img-detail {
+  height: 100%;
+  width: 100%;
+}
+.tr-content {
+  font-family: monospace;
+}
+
+.tr-content:hover {
+  font-weight: 600;
+  background-color: rgb(202, 202, 202);
+}
+
+.footer-2 {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: #999;
+}
+
+.footer-icon {
+  background-color: rgba(0, 0, 0, 0.651);
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.546);
+}
+
+.footer-icon:hover {
+  animation: pulse 1.5s;
+  color: #d90368 !important;
+  transition: 0.5s;
+}
+
+.footer-span {
+  color: #d90368;
+  background-color: rgba(0, 0, 0, 0.651);
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.546);
+  margin-right: 7px;
+  border-radius: 4px;
+  padding: 2px 20px;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 767.98px) {
+  #logo {
+    width: 120px;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #logo {
+    width: 150px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #logo {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #logo {
+    width: 200px;
+  }
+}
